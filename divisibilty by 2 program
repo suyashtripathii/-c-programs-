@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+   int num1;
+    scanf("%d", &num1);
+    if (num1%2==0){
+        printf ("number  is divisible by 2 ");
+    }
+     else {
+         printf("not divisible by two ");
+     }
+
+    return 0;
+}
